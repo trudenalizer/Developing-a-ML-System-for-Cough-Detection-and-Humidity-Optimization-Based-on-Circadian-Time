@@ -6,7 +6,7 @@ from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.metrics import classification_report
 
 #Load data
-df = pd.read_csv(r"C:\Users\Atay\Desktop\grad project\cough_dataset\online_cough_verisi.csv")
+df = pd.read_csv("online_cough_verisi.csv")
 
 #Cleanups
 df = df.replace([np.inf, -np.inf], np.nan)
