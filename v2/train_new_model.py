@@ -6,7 +6,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 from datetime import datetime
 
 #File paths
-DATA_PATH = r"C:\Users\Atay\Desktop\grad project\türkçe kodlar\sensor_data.csv"
+DATA_PATH = "sensor_data.csv"
 MODEL_PATH = "trained_model.pkl"
 
 #Read data from .csv file
