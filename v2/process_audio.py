@@ -4,11 +4,11 @@ import numpy as np
 from pydub import AudioSegment
 
 #Find FFMPEG path
-AudioSegment.converter = r"C:\Users\Atay\Desktop\grad project\v2\ffmpeg.exe"
+AudioSegment.converter = "ffmpeg.exe"
 
 #File paths
-DATA_FOLDER = r"C:\Users\Atay\Desktop\grad project\cough_dataset"
-CSV_FILE = r"C:\Users\Atay\Desktop\grad project\cough_dataset\metadata_compiled.csv"
+DATA_FOLDER = "cough_dataset"
+CSV_FILE = "metadata_compiled.csv"
 
 #Read .csv file
 df = pd.read_csv(os.path.join(DATA_FOLDER, CSV_FILE))
