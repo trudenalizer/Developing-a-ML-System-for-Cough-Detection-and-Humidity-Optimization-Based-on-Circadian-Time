@@ -6,8 +6,8 @@ from sklearn.metrics import mean_squared_error, r2_score
 from datetime import datetime
 
 #File paths
-REALTIME_DATA_PATH = r"C:\Users\Atay\Desktop\grad project\türkçe kodlar\sensor_data.csv"
-MENDELEY_DATA_PATH = r"C:\Users\Atay\Desktop\grad project\türkçe kodlar\v2\merged_mendeley_data.csv"
+REALTIME_DATA_PATH = "sensor_data.csv"
+MENDELEY_DATA_PATH = "merged_mendeley_data.csv"
 MODEL_PATH = "trained_model.pkl"
 
 #Read data from .csv file
