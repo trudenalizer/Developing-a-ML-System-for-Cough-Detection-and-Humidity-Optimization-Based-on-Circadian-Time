@@ -19,7 +19,7 @@ def modeli_egit():
 
     def egitim_islemi():
         try:
-            process = subprocess.Popen(["python", r"C:\Users\Atay\Desktop\grad project\türkçe kodlar\v2\new_train_modelv2.py"],
+            process = subprocess.Popen(["python","new_train_modelv2.py"],
                                        stdout=subprocess.PIPE,
                                        stderr=subprocess.STDOUT,
                                        text=True)
