@@ -9,7 +9,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 
 # Veriyi yükle
 try:
-    df = pd.read_csv(r"C:\Users\Atay\Desktop\grad project\türkçe kodlar\v2\sentetik_nem_verisi.csv")
+    df = pd.read_csv("sentetik_nem_verisi.csv")
     print("Veri başarıyla yüklendi.")
 except FileNotFoundError:
     print("Veri dosyası bulunamadı. Lütfen doğru yolu kontrol edin.")
