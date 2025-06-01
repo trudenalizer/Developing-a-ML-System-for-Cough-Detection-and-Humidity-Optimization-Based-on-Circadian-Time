@@ -19,16 +19,13 @@ Project Structure
 
 
 System Overview
+
  Hardware Components:
 
     Arduino Uno
-
-    SL2591 or AS7341 (light sensor – used to detect night conditions)
-
+    SL2591 or AS7341 (light sensor – used to detect night conditions and to log illumination changes)
     MAX4466 (microphone – used for cough detection)
-
     DHT22 (temperature & humidity sensor)
-
     5V Relay (controls humidifier)
 
  Machine Learning:
@@ -54,6 +51,7 @@ It listens for cough-like sounds using the microphone.
    Predict whether the cough is dryness-related or illness-related.
 
    If the cough is dryness-related and humidity is low, the humidifier is activated via relay.
+
 Model Evaluation
 
    Performance is measured using R² Score and Mean Squared Error for the regressor.
@@ -62,11 +60,12 @@ Model Evaluation
 
 
 Getting Started
+
  Prerequisites
 
-   Python 3.9+
+    Python 3.9+
 
-   Arduino IDE
+    Arduino IDE
 
    Required Python packages:
    
