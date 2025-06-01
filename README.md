@@ -20,15 +20,15 @@ Project Structure
 System Overview
  Hardware Components:
 
-   Arduino Uno
+    Arduino Uno
 
-   SL2591 or AS7341 (light sensor – used to detect night conditions)
+    SL2591 or AS7341 (light sensor – used to detect night conditions)
 
-   MAX4466 (microphone – used for cough detection)
+    MAX4466 (microphone – used for cough detection)
 
-   DHT22 (temperature & humidity sensor)
+    DHT22 (temperature & humidity sensor)
 
-   5V Relay (controls humidifier)
+    5V Relay (controls humidifier)
 
  Machine Learning:
 
@@ -92,7 +92,7 @@ Authors
 
 License
 
-This project is licensed under the MIT License.
+    This project is licensed under the MIT License.
 
 
 Acknowledgements
