@@ -74,13 +74,15 @@ Getting Started
 
 Running the Project
 
-   Upload the Arduino sketch (not included here) that communicates over serial.
+   Upload the Arduino sketch that communicates over serial.
 
-   Run serial_relay_main.py to start real-time monitoring.
+   Run process_audio.py, train_classification model, and  new_train_modelv2.py to create the ML model
+
+   Run loglayan_kararpy.py to start real-time monitoring.
 
    Use gui_lastv2.py for a basic GUI.
 
-   To retrain the ML model: run train_new_model.py.
+   To retrain the ML model: run new_train_modelv2.py.
 
 
 Authors
