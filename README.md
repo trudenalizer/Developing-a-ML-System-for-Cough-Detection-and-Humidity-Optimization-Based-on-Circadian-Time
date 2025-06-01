@@ -78,7 +78,7 @@ Running the Project
 
    Run process_audio.py, train_classification model, and  new_train_modelv2.py to create the ML model
 
-   Run loglayan_kararpy.py to start real-time monitoring.
+   Run iki_model_karar.py to start real-time monitoring.
 
    Use gui_lastv2.py for a basic GUI.
 
