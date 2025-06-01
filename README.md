@@ -1,6 +1,7 @@
 Developing a ML System for Cough Detection and Humidity Optimization Based on Circadian Time
 
-This project implements a real-time, Arduino-based system for nocturnal cough monitoring and humidity regulation. It uses machine learning to analyze environmental conditions and coughing events, with the aim of improving sleep quality by activating a humidifier only when needed.
+This project was developed as part of our graduation project at the Department of Photonics, Izmir Institute of Technology - IZTECH, focused on embedded systems and machine learning for health-related monitoring.
+This project implements a real-time, Arduino-based system for nocturnal cough monitoring and humidity regulation. It uses machine learning to analyze environmental conditions and coughing events, with the aim of improving sleep quality and possible treatment of nocturnal coughing.
 
 
 Project Structure
