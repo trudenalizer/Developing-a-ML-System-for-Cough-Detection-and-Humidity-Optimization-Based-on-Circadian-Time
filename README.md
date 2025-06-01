@@ -4,15 +4,15 @@ This project implements a real-time, Arduino-based system for nocturnal cough mo
 
 
 Project Structure
-v2/
-├── classifier_model.pkl       # Trained classifier for cough type
-├── trained_model.pkl          # Regressor model for humidity estimation
-├── sensor_data.csv            # Logged real-time sensor data
-├── merged_mendeley_data.csv   # Historical dataset for training
-├── gui_lastv2.py              # GUI interface for real-time predictions
-├── serial_relay_main.py       # Arduino communication and actuator control
-├── train_new_model.py         # Model training for humidity prediction
-├── accuracy.py                # Evaluation of model performance
+ v2/
+  ├── classifier_model.pkl       # Trained classifier for cough type
+  ├── trained_model.pkl          # Regressor model for humidity estimation
+  ├── sensor_data.csv            # Logged real-time sensor data
+  ├── merged_mendeley_data.csv   # Historical dataset for training
+  ├── gui_lastv2.py              # GUI interface for real-time predictions
+  ├── serial_relay_main.py       # Arduino communication and actuator control
+  ├── train_new_model.py         # Model training for humidity prediction
+  ├── accuracy.py                # Evaluation of model performance
 
 
 
