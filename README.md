@@ -23,7 +23,7 @@ System Overview
  Hardware Components:
 
     Arduino Uno
-    SL2591 or AS7341 (light sensor – used to detect night conditions and to log illumination changes)
+    TSL2591 or AS7341 (light sensor – used to detect night conditions and to log illumination changes)
     MAX4466 (microphone – used for cough detection)
     DHT22 (temperature & humidity sensor)
     5V Relay (controls humidifier)
